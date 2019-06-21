@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.section {
+    min-height: 400px;
+    padding-top: 30px;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+/*disable vuetify v-app default height*/
+.application--wrap {
+    min-height: auto;
+}
